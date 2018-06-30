@@ -1,0 +1,12 @@
+<info>
+    <description>Example for implementing the "Transform View" design pattern.</description>
+    <developer>Nauzet Hernández</developer>
+    <application>
+        <name>GClases ULPGC</name>
+        <year>2018</year>
+        <languages>
+            <language>Java</language>
+            <language>JavaScript(Probably)</language>
+        </languages>
+    </application>
+</info>

@@ -1,0 +1,264 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    background-color: ivory;
+    height:100%;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+    
+}
+header {
+    background-color: #2E4A62;
+    padding: 10px;
+    color: #F0EDE5;
+    margin: 0 auto;
+    overflow: auto;
+}
+#headerRight{
+    float: right;
+    margin-top: 15px;
+    
+}
+.options{
+    display: inline;
+}
+
+.empty input[type=submit]{
+    background-color: #DDDDDD;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.notempty input[type=submit]{
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+header img{
+    float: left;
+    overflow: auto;
+    margin-left: 15px;
+}
+#logoSmall{
+    
+}
+#adminpanel{
+    width: 25%;
+    height: 100%;
+    float:left;
+}
+.adminpanelElement, #financial{
+    padding: 25px 0;
+    font-size: 24px;
+}
+#financial input[type=submit]{
+    border:none;
+    background-color: ivory;
+    font-size:24px;
+    color:black;
+    cursor: pointer;
+}
+#classroomsPanel{
+    width: 75%;
+    float:right;
+    padding: 20px 0;
+
+}
+
+a{
+    color:black;
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color:black;
+}
+
+.classroom, .user{
+    display:inline-block;
+    margin: 30px;
+}
+.occupied{
+    background-color: #898E8C;
+    color:white;
+    text-transform: uppercase;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top:30px;
+    
+}
+td,th{
+    padding: 10px;
+}
+tr:nth-child(odd){
+    background-color: #F0EDE5;
+    color: black;
+}
+tr:nth-child(even){
+    background-color: #DDDDDD;
+    color: black;
+}
+tr:nth-child(1){
+    font-weight: bold;
+    background-color: #2E4A62;
+    color: #F0EDE5;
+    
+}
+#newWorkplaceForm, .formN{
+    padding-top: 25px;
+    width: 60%;
+    margin: 0 auto;
+}
+#newWorkplaceForm *, .formN *{
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+#newWorkplaceForm input[type=submit], .formN input[type=submit]{
+    width: auto;
+    background-color: #2ECC40;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 10px auto;
+    cursor: pointer;
+    
+}
+
+#loginForm input[type=submit], #reservation input[type=submit], .confirmationForm input[type=submit]{
+    background-color: #2ECC40;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#reservation{
+    padding-top:15px;
+    display: inline-block;
+}
+#loginDiv{
+    border-radius: 5px;
+    background-color: #2E4A62;
+    margin: 0 auto;
+    margin-top:100px;
+    width: 50%;
+    padding: 25px;
+}
+#loginDiv h1 {
+    padding-bottom: 20px;
+}
+.classForm input[type=submit], .userForm input[type=submit]{
+    background-color: #4F84C4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 25px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size:16px;
+}
+#classPanel, #usersPanel, #generalDiv{
+    width: 75%;
+    float:right;
+    padding: 20px 0;
+}
+#TransViewPanel{
+    padding-left: 30px;
+    text-align: left;
+}
+h2, h3{
+    padding-bottom: 10px;
+    padding-top:20px;
+}
+li{
+    padding-left: 10px;
+}
+
+#logoutForm{
+    display: inline-block;
+}
+#logoutForm input[type=submit]{
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+footer{
+    font-size: 12px;
+    font-style:italic;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 5px;
+}
+#logoImg{
+    margin: 0 auto;
+}
+.workplace{
+    display:inline-block;
+}
+#workplacesPanel{
+    padding-top: 70px;
+    display: inline-block;
+    
+}
+.buttonworkplaces img{
+    width:375px;
+    height:225px;
+}
+.buttonworkplaces:hover{
+    opacity:0.5;
+}
+.buttonworkplaces{
+    border: none;
+    cursor: pointer;
+}
+#mensaje{
+    font-size:20px;
+    padding-bottom: 20px;
+}
+#description{
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 20px;
+}
+#imgSide{
+    float:left;
+    width: 50%;
+    
+}
+#infoSide{
+    float: right;
+    width: 50%;
+}
+.admin{
+    color: tomato;
+}
+#desplazador form{
+    display: inline-block;
+}

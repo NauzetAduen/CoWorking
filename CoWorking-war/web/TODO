@@ -1,0 +1,23 @@
+- Terminado
+    Usuarios reales en users.jsp
+    5 tablas (componentes, pages, reservations, users, workplaces)
+    USAR facade (solo en 1 es necesario)
+        financial.jsp   : reservations (select)
+        cartlist.jsp    : reservation (insert)
+        stats.jsp       : components (select)
+        users.jsp       : users (select, insert,delete, update)
+        workplaces.jsp  : workplaces (select)
+    >   workdplacesPanel: workplaces (select, insert - delete, update)   
+    añadir LIKE, order BY, where 
+    CRITERA API para realizar búsquedas de entidades
+
+- Falta
+    Diagrama BBDD | Actualizar modelo de negocio
+
+    Implementar la Paginación
+
+
+- Extra
+    5 tablas nuevas (ratings,strategies)
+    Utilizar CRITERIA API ( UPDATE, INSERT y DELETE) en 1 entidad
+    BD remota
